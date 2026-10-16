@@ -396,6 +396,7 @@ paths:
               schema:
                 properties:
                   success: { type: boolean, example: true }
+                  eventId: { description: 'ID of the new event', type: integer, example: 42 }
                 type: object
         '400':
           description: 'Invalid event type, calendar ID or volunteer ministry'
